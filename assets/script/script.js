@@ -16,23 +16,60 @@ var pm4 = "";
 var pm5 = "";
 var pleaseWork;
 
-//document.querySelector("am8").innerHTML = "test";
-
-$(".btn").click(function save(){
-    //var newItem = document.querySelector("input").value
-    var userInfo8 = $("input:text").val();
+console.log($("#am8"))
+// Function to save 8 am data
+$(".btn8").click(function save(){
+    var userInfo8 = $("#am8").val();
     localStorage.setItem("am8", userInfo8)
-    console.log()
-
+});
+$(".btn9").click(function save(){
+    var userInfo9 = $("#am9").val();
+    localStorage.setItem("am9", userInfo9)
+});
+$(".btn10").click(function save(){
+    var userInfo10 = $("#am10").val();
+    localStorage.setItem("am10", userInfo10)
+});
+$(".btn11").click(function save(){
+    var userInfo11 = $("#am11").val();
+    localStorage.setItem("am11", userInfo11)
+});
+$(".btn12").click(function save(){
+    var userInfo12 = $("#pm12").val();
+    localStorage.setItem("pm12", userInfo12)
+});
+$(".btn1").click(function save(){
+    var userInfo1 = $("#pm1").val();
+    localStorage.setItem("pm1", userInfo1)
+});
+$(".btn2").click(function save(){
+    var userInfo2 = $("#pm2").val();
+    localStorage.setItem("pm2", userInfo2)
+});
+$(".btn3").click(function save(){
+    var userInfo3 = $("#pm3").val();
+    localStorage.setItem("pm3", userInfo3)
+});
+$(".btn4").click(function save(){
+    var userInfo4 = $("#pm4").val();
+    localStorage.setItem("pm4", userInfo4)
+});
+$(".btn5").click(function save(){
+    var userInfo5 = $("#pm5").val();
+    localStorage.setItem("pm5", userInfo5)
 });
 
-var reloadLocalFor8am = document.querySelectorAll("#am8").innerText = localStorage.getItem("am8")
-window.onload = reloadLocalFor8am
 
-
-
-
-
+window.onload = $(".am8").val(localStorage.getItem("am8"))
+window.onload = $(".am9").val(localStorage.getItem("am9"))
+window.onload = $(".am10").val(localStorage.getItem("am10"))
+window.onload = $(".am11").val(localStorage.getItem("am11"))
+window.onload = $(".pm12").val(localStorage.getItem("pm12"))
+window.onload = $(".pm1").val(localStorage.getItem("pm1"))
+window.onload = $(".pm2").val(localStorage.getItem("pm2"))
+window.onload = $(".pm3").val(localStorage.getItem("pm3"))
+window.onload = $(".pm4").val(localStorage.getItem("pm4"))
+window.onload = $(".pm5").val(localStorage.getItem("pm5"))
 
 // Function that takes time, compares to time block, and formats it according to whether it is past, present, future
 var am8 = $(".am8");

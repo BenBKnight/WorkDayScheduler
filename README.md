@@ -10,6 +10,8 @@ I would have liked to somehow get the timeblocks built in a more efficient manne
   
 I am still having trouble with local storage. I will have to meet with a tutor to get more hands on help with that. 
 
+I was able to connect with our TA Chris before class that helped me identify my issue with the local storage. I know I have a lot more to learn about efficiency when it comes to condensing my code and getting more comfortable with loops.
+  
 ## Final look
 
 ![Picture of finished project](./assets/Workdayscheduler.png)
